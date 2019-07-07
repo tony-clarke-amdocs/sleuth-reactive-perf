@@ -1,0 +1,29 @@
+server:
+  port: 9090
+
+management:
+  security:
+    enabled: false
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  jmx:
+    enabled: false
+  application:
+    name: gatewayWithoutSleuth
+  cloud:
+    gateway:
+      routes:
+      - id: method_route
+        uri: http://localhost:8080/greeting
+        predicates:
+        - Method=GET
+        - Path=/greeting
+  sleuth:
+    enabled: false

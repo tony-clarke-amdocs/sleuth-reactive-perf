@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: gatewayWithSleuth
+  sleuth:
+    enabled: true
