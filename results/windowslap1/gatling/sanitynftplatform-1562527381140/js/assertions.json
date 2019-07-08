@@ -1,0 +1,27 @@
+{
+  "simulation": "SanityNFTPlatform",
+  "simulationId": "sanitynftplatform",
+  "start": 1562527381140,
+  "description": "null",
+  "scenarios": ["withsleuth"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful requests",
+  "condition": "is",
+  "expectedValues": [100.0],
+  "result": true,
+  "message": "Global: percentage of successful requests is 100.0",
+  "actualValue": [100.0]
+},
+{
+  "path": "withsleuth",
+  "target": "mean of response time",
+  "condition": "is less than",
+  "expectedValues": [80.0],
+  "result": true,
+  "message": "withsleuth: mean of response time is less than 80.0",
+  "actualValue": [37.0]
+}
+  ]
+}
