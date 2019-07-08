@@ -10,7 +10,8 @@ By default the test will run 6 times. 3 times with Sleuth enabled and 3 times wi
 The test has been run on three sample platforms; a windows laptop, macbook pro laptop and a Linux server. In each case adding Sleuth seems to show a significant degradation in the response time.
 
 __Summary__
-| Platform   |      Without Sleuth      |  With Sleuth |
+
+| Platform   | Without Sleuth | With Sleuth |
 |----------|:-------------:|:------:|
 | Windows |   41 |  83 | 
 | Mac | 3|  29  |
