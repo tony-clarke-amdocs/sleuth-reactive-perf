@@ -1,8 +1,0 @@
-<testsuite name="SanityNFTPlatform" tests="2" errors="0" failures="0" time="0">
-<testcase name="Global: percentage of successful requests is 100.0" status="true" time="0">
-  <system-out>Global: percentage of successful requests is 100.0</system-out>
-</testcase>
-<testcase name="nosleuth: mean of response time is less than 80.0" status="true" time="0">
-  <system-out>nosleuth: mean of response time is less than 80.0</system-out>
-</testcase>
-</testsuite>

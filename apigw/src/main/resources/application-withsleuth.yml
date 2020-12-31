@@ -3,3 +3,6 @@ spring:
     name: gatewayWithSleuth
   sleuth:
     enabled: true
+    reactor:
+      instrumentation-type: decorate-on-each
+      # instrumentation-type: manual

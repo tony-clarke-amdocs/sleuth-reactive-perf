@@ -17,7 +17,7 @@ class SanityNFTPlatform extends Simulation
 
   // base header fields
   val httpProtocol = http
-    .baseURL("http://localhost")
+    .baseUrl("http://localhost")
     .inferHtmlResources()
     .acceptHeader("application/json")
     .acceptEncodingHeader("gzip, deflate")
@@ -37,10 +37,10 @@ class SanityNFTPlatform extends Simulation
 
   val nUsers = Integer.parseInt(System.getProperty("nusers"))
   val nRampUsersPerSecond = 63
-  
+  val rampDuration: Int = nUsers / nRampUsersPerSecond
     
   // ramping users
-  setUp(TestSpringSleuthScenario.inject(rampUsers(nUsers) over(nUsers/nRampUsersPerSecond seconds)))
+  setUp(TestSpringSleuthScenario.inject(rampUsers(nUsers) during(rampDuration seconds)))
     .maxDuration(10 minutes).protocols(httpProtocol)
     .assertions(
       // expected all success
