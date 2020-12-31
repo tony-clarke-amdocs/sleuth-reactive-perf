@@ -13,11 +13,11 @@ __Summary__
 
 | Platform   | Without Sleuth | With Sleuth - Manual | With Sleuth - On Each Operation|
 |----------|:-------------:|:------:|----|
-| Windows |   NA |  NA | NA |
+| Windows |  6 |  NA | 10 |
 | Mac | 3|  4  | 5 |
 | Linux | NA | NA | NA |
 
-*Note*: The above summary takes the middle run from the test. Full details can be found in results/.
+*Note*: The above summary takes the last run from the test. Full details can be found in results/.
 
 ### To Run
 From root directory ./test.sh 
