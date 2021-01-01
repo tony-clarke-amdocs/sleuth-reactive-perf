@@ -11,11 +11,11 @@ The test has been run on three sample platforms; a windows laptop, macbook pro l
 
 __Summary__
 
-| Platform   | Without Sleuth | With Sleuth - Manual | With Sleuth - On Each Operation|
-|----------|:-------------:|:------:|----|
-| Windows |  6 |  NA | 10 |
-| Mac | 3|  4  | 5 |
-| Linux | NA | NA | NA |
+| Platform   | Without Sleuth | With Sleuth - Manual | With Sleuth - On Each Operation| With Sleuth - On Last Operatorion|
+|----------|:-------------:|:------:|----|----|
+| Windows |  7 |  NA | 9 ||
+| Mac | 3|  4  | 5 ||
+| Linux | NA | NA | NA ||
 
 *Note*: The above summary takes the last run from the test. Full details can be found in results/.
 
