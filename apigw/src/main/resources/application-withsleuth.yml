@@ -5,4 +5,5 @@ spring:
     enabled: true
     reactor:
       instrumentation-type: decorate-on-each
+      # instrumentation-type: decorate-on-last
       # instrumentation-type: manual
