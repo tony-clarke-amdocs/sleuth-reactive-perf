@@ -11,13 +11,13 @@ The test has been run on three sample platforms; a windows laptop, macbook pro l
 
 __Summary__
 
-| Platform   | Without Sleuth | With Sleuth - Manual | With Sleuth - On Each Operation| With Sleuth - On Last Operatorion|
+| Platform   | Without Sleuth | With Sleuth - Manual | With Sleuth - On Last Operation| With Sleuth - On Each Operatorion|
 |----------|:-------------:|:------:|----|----|
-| Windows |  7 |  NA | 9 ||
-| Mac | 3|  4  | 5 ||
-| Linux | NA | NA | NA ||
+| Windows 1000 users | 4 |  6 | 6 | 9 |
+| Mac 1000 users| 3|  4  | 4 | 5 |
+| Linux 1000 users| 2 | 2 | 2 | 2 |
+| Linux 10000 users| 7 | 8 | 12 | 22 |
 
-*Note*: The above summary takes the last run from the test. Full details can be found in results/.
 
 ### To Run
 From root directory ./test.sh 
