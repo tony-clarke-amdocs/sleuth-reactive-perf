@@ -13,9 +13,9 @@ __Summary__
 
 | Platform   | Without Sleuth | With Sleuth |
 |----------|:-------------:|:------:|
-| Windows |   41 |  83 | 
-| Mac | 3|  29  |
-| Linux | 6 |11 |
+| Windows 750 users|   41 |  83 | 
+| Mac 750 users| 3|  29  |
+| Linux 3000 users| 6 |11 |
 
 *Note*: The above summary takes the middle run from the test. Full details can be found in results/.
 
